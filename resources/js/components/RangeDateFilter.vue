@@ -15,6 +15,7 @@
                               v-model="value.from"
                               :placeholder="filter.options.fromPlaceholder"
                               :dateFormat="filter.options.dateFormat"
+                              :altFormat="filter.options.dateFormat"
                               :enable-time="filter.options.enableTime"
                               :enable-seconds="filter.options.enableSeconds"
                               @change="handleFromChange"/>
@@ -28,6 +29,7 @@
                               v-model="value.to"
                               :placeholder="filter.options.toPlaceholder"
                               :dateFormat="filter.options.dateFormat"
+                              :altFormat="filter.options.dateFormat"
                               :enable-time="filter.options.enableTime"
                               :enable-seconds="filter.options.enableSeconds"
                               @change="handleToChange"/>
